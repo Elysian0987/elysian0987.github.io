@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Lora&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Lora', serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(37deg, #331028, #280b41, #330b24);
+}
+
+.calculator{
+    border: 1px solid #81b8b8d6;
+    padding: 20px;
+    border-radius: 24px;
+    background-color: transparent;
+    box-shadow: 2px 3px 15px rgba(87, 155, 182, 0.5);
+}
+
+input{
+    width: 428px;
+    border: none;
+    padding: 26px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.4);
+    text-align: right;
+    font-size: 65px;
+    cursor: pointer;
+    /*color: #adf1d3;*/
+    color: #b3fcdc;
+}
+
+input::placeholder{
+    color: #b3fcdc;
+}
+
+button{
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 74px;
+    height: 60px;
+    margin: 19px;
+    border-radius: 37%;
+    background: transparent;
+    color: #2dd494;
+    font-size: 20px;
+    box-shadow: -4px -4px 16px rgba(190, 60, 82, 0.307);
+    cursor: pointer;
+}
+
+.equalBtn{
+    color: #34cadbec;
+    background-color: #96d9ab54;
+}
+
+.operator{
+    color: #78ee8aea;
+    background-color: #9dc8bb40;
+}
