@@ -8,12 +8,13 @@ arr.forEach(button => {
         if(e.target.innerHTML == '=')
         {
             try {
-                string = eval(string);
-                if(isNaN(string))
+                string = string.replace(/(\d+)%$/, "$1%100");
+                let result = eval(string);
+                if(isNaN(result))
                 {
                     throw new Error('')
                 }
-                input.value = string;
+                input.value = result;
             } 
             catch(error) {
                 input.value = "Syntax Error";
