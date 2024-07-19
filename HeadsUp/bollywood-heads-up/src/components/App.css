@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.Game {
+  margin-top: 50px;
+}
+
+.Game h2 {
+  color: #555;
+}
+
+.Game p {
+  font-size: 24px;
+  color: #777;
+}
+
+.Results p {
+  font-size: 20px;
+  color: #333;
+}
+
+.Results button {
+  margin-top: 20px;
+}
