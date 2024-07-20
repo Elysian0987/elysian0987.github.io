@@ -77,13 +77,14 @@ function startTimer() {
 function handleOrientation(event) {
   const beta = event.beta; // Tilt front-to-back
   const gamma = event.gamma; // Tilt left-to-right
-  
-  if (beta > 80 && beta < 100) {
+
+  if (beta > 60 && beta < 120) {
     handleCorrect();
-  } else if (beta < -80 && beta > -100) {
+  } else if (beta < -60 && beta > -120) {
     handleSkip();
   }
 }
+
 
 function handleCorrect() {
   score++;
