@@ -2,7 +2,7 @@
   "name": "bollywood-heads-up",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://elysian0987.github.io/HeadsUp",
+  "homepage": "https://elysian0987.github.io/HeadsUp/bollywood-heads-up",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
