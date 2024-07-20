@@ -1,5 +1,5 @@
 const songsList = [
-    'Tum Hi Ho', 'Chaiyya Chaiyya', 'Kabhi Kabhi Aditi', 'Tujhe Dekha To', 'Tum Mile', 'Aankhon Mein Teri',
+    'Tum Hi Ho', 'Chaiyya Chaiyya', 'Kabhi Kabhi Aditi', 'Kajra Re', 'Tujhe Dekha To', 'Tum Mile', 'Aankhon Mein Teri',
     'Badtameez Dil', 'Kala Chashma', 'Dil Dhadakne Do', 'Tera Ban Jaunga', 'Bulleya', 'Ae Dil Hai Mushkil',
     'Ghungroo', 'Bekhayali', 'Tera Hone Laga Hoon', 'Makhna', 'Kar Gayi Chull', 'Jab Koi Baat Bigad Jaye',
     'Raabta', 'Mast Magan', 'Moh Moh Ke Dhaage', 'Tum Se Hi', 'Samjhawan', 'Sun Saathiya', 'Hawayein',
