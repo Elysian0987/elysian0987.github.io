@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/HeadsUp/static/css/main.50f845a1.css",
-    "main.js": "/HeadsUp/static/js/main.6e3a4de2.js",
-    "index.html": "/HeadsUp/index.html",
-    "main.50f845a1.css.map": "/HeadsUp/static/css/main.50f845a1.css.map",
-    "main.6e3a4de2.js.map": "/HeadsUp/static/js/main.6e3a4de2.js.map"
+    "main.css": "/HeadsUp/bollywood-heads-up/static/css/main.50f845a1.css",
+    "main.js": "/HeadsUp/bollywood-heads-up/static/js/main.6e3a4de2.js",
+    "index.html": "/HeadsUp/bollywood-heads-up/index.html",
+    "main.50f845a1.css.map": "/HeadsUp/bollywood-heads-up/static/css/main.50f845a1.css.map",
+    "main.6e3a4de2.js.map": "/HeadsUp/bollywood-heads-up/static/js/main.6e3a4de2.js.map"
   },
   "entrypoints": [
     "static/css/main.50f845a1.css",
