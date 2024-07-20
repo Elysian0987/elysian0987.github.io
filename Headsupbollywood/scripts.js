@@ -75,10 +75,12 @@ function startTimer() {
 }
 
 function handleOrientation(event) {
-  const beta = event.beta; // Assuming beta axis for simplicity
-  if (beta > 70) {
+  const beta = event.beta; // Tilt front-to-back
+  const gamma = event.gamma; // Tilt left-to-right
+  
+  if (beta > 80 && beta < 100) {
     handleCorrect();
-  } else if (beta < -70) {
+  } else if (beta < -80 && beta > -100) {
     handleSkip();
   }
 }
