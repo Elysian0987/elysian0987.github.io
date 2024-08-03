@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Compass</title>
+    <style>
+        #compass {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            border-radius: 50%;
+            position: relative;
+            margin: 50px auto;
+        }
+        #needle {
+            width: 2px;
+            height: 100px;
+            background: red;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform-origin: bottom center;
+        }
+    </style>
+</head>
+<body>
+    <div id="compass">
+        <div id="needle"></div>
+    </div>
+    <script>
+        const needle = document.getElementById('needle');
+
+        function handleOrientation(event) {
+            const alpha = event.alpha; // The compass heading in degrees
+            needle.style.transform = `rotate(${alpha}deg)`;
+        }
+
+        if (window.DeviceOrientationEvent) {
+            window.addEventListener('deviceorientation', handleOrientation, true);
+        } else {
+            alert('Device Orientation API not supported.');
+        }
+    </script>
+</body>
+</html>
